@@ -1,27 +1,65 @@
-.jumbotron{
-	border: 5px solid gray;
-	background: rgba(128,128,128, 0.2);
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto',sans-serif;
+}
+body{
+	background: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-custom {
+    background-color: rgba(255,255,255,0.08);
+    margin-bottom: 200px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(239, 140, 19);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(239, 140, 19);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+   color: rgb(239, 140, 19);
+}
+
+h2{
+	color: rgb(239, 140, 19);
+}
+
+#me{
+	height: 200px;
+	border-radius: 50%;
+	border-color: rgba(255,255,255,0.75);
 	margin-top: 50px;
 }
+.con-margin{
+	margin: 50px 0;
+	padding: 0;
+}
 
-#portfolio{
+.vh100{
 	height: 100vh;
+	background: white;
 }
 
-#skills{
-	height: 100vh;
+.container-fluid{
+	background-color: rgba(239, 140, 19, 0.2);
+	margin: 100px 0;
 }
 
-
-
-/*tablet*/
-
-@media only screen and (min-width: 401px) and (max-width: 960px)
-{
-
+p{
+	color: rgb(181, 138, 92);
 }
 
-@media only screen and (max-width: 400px)
-{
-
-}
