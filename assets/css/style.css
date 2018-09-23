@@ -4,8 +4,10 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto',sans-serif;
+	color: rgb(255, 244, 229);
 }
 body{
+	height: 100%;
 	background: url('../images/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -16,9 +18,14 @@ body{
 }
 
 .navbar-custom {
-    background-color: rgba(255,255,255,0.08);
-    margin-bottom: 200px;
+    background-color: rgba(29, 29, 30,0.9);
 }
+
+
+.navbar-custom.scrolled{
+	background-color: white  !important;
+}
+
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -34,8 +41,8 @@ body{
    color: rgb(239, 140, 19);
 }
 
-h2{
-	color: rgb(239, 140, 19);
+.h-mod{
+	font-family: 'Montserrat', sans-serif;
 }
 
 #me{
@@ -51,15 +58,71 @@ h2{
 
 .vh100{
 	height: 100vh;
-	background: white;
 }
 
 .container-fluid{
-	background-color: rgba(239, 140, 19, 0.2);
-	margin: 100px 0;
+	background-color: rgba(29, 29, 30,0.5);
+	margin: 50px 0;
 }
 
 p{
-	color: rgb(181, 138, 92);
+	/*color: white;*/
+	/*color: rgb(255, 169, 33);*/
+	font-family: 'Montserrat', sans-serif;
+}
+h5{
+	/*color: white;*/
+	/*color: rgb(255, 169, 33);*/
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
 }
 
+.slideInUp{
+	animation-duration: 3s;
+}
+
+.progress{
+	margin: 5px 0;
+}
+
+.jumbotron{
+	padding: 10px 5px;
+	background: rgba(29, 29, 30,0.001);
+}
+
+.text-center{
+	padding: 0;
+	margin:	0;
+}
+
+.progress {
+  border: none;
+  background: rgba(29, 29, 30,0.9);
+}
+
+.progress-bar{
+	background: rgb(229, 153, 50);
+}
+
+.bg-trans{
+	background: none;
+}
+a{
+	margin-top: 10px;
+	color: rgb(255, 244, 229);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(239, 140, 19);
+	text-decoration: none;
+}
+
+.margin-top{
+	margin: 10px 0;
+}
+
+.footer-properties{
+	padding-top: 20px; 
+	margin-bottom: 0;
+	background-color: black;
+}
