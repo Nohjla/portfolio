@@ -22,5 +22,16 @@ git commit -m "add your comment here"                       # use to commit file
 #### If yow want to explore the different option on setting your github repository you can refer to github documentation.
 
 > Note: Before you can clone or add remote your github repository please generate new SSH key and add to your github account.
+creating SSH key
 `https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent`
+adding SSH key to your github account
 `https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account`
+
+### Creating your python virtual environment on windows.
+
+#### It is very easy to create your python environment just execute this on your command line `python -m venv name-of-your-environment`
+#### But before you execute this command i'm expecting that you've already install python on your computer device.
+
+### Now you can add different packages that you need on your python project. On adding packages you can google it on your own.
+
+#### I know that I have a lot to improve in this documentation, I will keep on improving for you guys.
